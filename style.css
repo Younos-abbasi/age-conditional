@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 550px;
+  height: 350px;
+  background: #f12711;
+  background: linear-gradient(to top, #f12711, #f5af19);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #31363f;
+}
+.card {
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+#userAge {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+#myInput {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #000;
+}
+#myButton {
+  font-size: 1em;
+  font-weight: 500;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+#resultBox {
+  color: #000;
+  width: 100%;
+  height: 120px;
+  margin-top: 40px;
+}
